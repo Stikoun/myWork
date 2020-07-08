@@ -1,0 +1,22 @@
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\bin\Debug\ServisniProtokol.exe.config
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\bin\Debug\ServisniProtokol.exe
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\bin\Debug\ServisniProtokol.pdb
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.csprojResolveAssemblyReference.cache
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.Form1.resources
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.Properties.Resources.resources
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.csproj.GenerateResource.Cache
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.exe
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.pdb
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.ShowForm.resources
+c:\users\hlava\documents\visual studio 2015\Projects\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.AddMeasurementForm.resources
+D:\ServisniProtokol\ServisniProtokol\bin\Debug\ServisniProtokol.exe.config
+D:\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.exe
+D:\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.pdb
+D:\ServisniProtokol\ServisniProtokol\bin\Debug\ServisniProtokol.exe
+D:\ServisniProtokol\ServisniProtokol\bin\Debug\ServisniProtokol.pdb
+D:\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.csprojResolveAssemblyReference.cache
+D:\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.AddMeasurementForm.resources
+D:\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.Form1.resources
+D:\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.Properties.Resources.resources
+D:\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.ShowForm.resources
+D:\ServisniProtokol\ServisniProtokol\obj\Debug\ServisniProtokol.csproj.GenerateResource.Cache
