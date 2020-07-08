@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B3D0A9C-4CE5-4BC7-9654-6D0201D85B0C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>DatabaseProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\packages\MySql.Data.6.9.3\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6">
+      <HintPath>..\packages\MySql.Data.Entity.6.9.3\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Case.cs" />
+    <Compile Include="DiagnosisDrugs.cs" />
+    <Compile Include="Forms_Add\Form_AddCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddCase.Designer.cs">
+      <DependentUpon>Form_AddCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddDiagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddDiagnosis.Designer.cs">
+      <DependentUpon>Form_AddDiagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddDrug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddDrug.Designer.cs">
+      <DependentUpon>Form_AddDrug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddDoctor.Designer.cs">
+      <DependentUpon>Form_AddDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddUser.Designer.cs">
+      <DependentUpon>Form_AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddVisit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddVisit.Designer.cs">
+      <DependentUpon>Form_AddVisit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Visits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Visits.Designer.cs">
+      <DependentUpon>Form_Visits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_AdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_AdminPanel.Designer.cs">
+      <DependentUpon>Form_AdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Cases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Cases.Designer.cs">
+      <DependentUpon>Form_Cases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Diagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Diagnosis.Designer.cs">
+      <DependentUpon>Form_Diagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DI_Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DI_Patient.Designer.cs">
+      <DependentUpon>Form_DI_Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DI_Patient_Drug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DI_Patient_Drug.Designer.cs">
+      <DependentUpon>Form_DI_Patient_Drug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DoctorInterface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DoctorInterface.Designer.cs">
+      <DependentUpon>Form_DoctorInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Doctors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Doctors.Designer.cs">
+      <DependentUpon>Form_Doctors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Drugs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Drugs.Designer.cs">
+      <DependentUpon>Form_Drugs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Users.Designer.cs">
+      <DependentUpon>Form_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\CaseRepository.cs" />
+    <Compile Include="Diagnosis.cs" />
+    <Compile Include="Repository\DiagnosisDrugRepository.cs" />
+    <Compile Include="Repository\DiagnosisRepository.cs" />
+    <Compile Include="Doctor.cs" />
+    <Compile Include="Repository\DoctorRepository.cs" />
+    <Compile Include="Drug.cs" />
+    <Compile Include="Repository\DrugRepository.cs" />
+    <Compile Include="Forms_AdminPanel\Form_Patients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_AdminPanel\Form_Patients.Designer.cs">
+      <DependentUpon>Form_Patients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Add\Form_AddPatient.Designer.cs">
+      <DependentUpon>Form_AddPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.cs" />
+    <Compile Include="Repository\PatientRepository.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\VisitRepository.cs" />
+    <Compile Include="TestContext.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Visit.cs" />
+    <EmbeddedResource Include="Forms_Add\Form_AddVisit.resx">
+      <DependentUpon>Form_AddVisit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_AdminPanel\Form_Patients.resx">
+      <DependentUpon>Form_Patients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Add\Form_AddCase.resx">
+      <DependentUpon>Form_AddCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Add\Form_AddDiagnosis.resx">
+      <DependentUpon>Form_AddDiagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Add\Form_AddDrug.resx">
+      <DependentUpon>Form_AddDrug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Add\Form_AddDoctor.resx">
+      <DependentUpon>Form_AddDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Add\Form_AddPatient.resx">
+      <DependentUpon>Form_AddPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Add\Form_AddUser.resx">
+      <DependentUpon>Form_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_AdminPanel\Form_Visits.resx">
+      <DependentUpon>Form_Visits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_AdminPanel.resx">
+      <DependentUpon>Form_AdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_AdminPanel\Form_Cases.resx">
+      <DependentUpon>Form_Cases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_AdminPanel\Form_Diagnosis.resx">
+      <DependentUpon>Form_Diagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DI_Patient.resx">
+      <DependentUpon>Form_DI_Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DI_Patient_Drug.resx">
+      <DependentUpon>Form_DI_Patient_Drug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DoctorInterface.resx">
+      <DependentUpon>Form_DoctorInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_AdminPanel\Form_Doctors.resx">
+      <DependentUpon>Form_Doctors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_AdminPanel\Form_Drugs.resx">
+      <DependentUpon>Form_Drugs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_AdminPanel\Form_Users.resx">
+      <DependentUpon>Form_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

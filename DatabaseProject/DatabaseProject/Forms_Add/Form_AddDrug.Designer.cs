@@ -1,0 +1,192 @@
+﻿namespace WindowsFormsApplication1
+{
+    partial class Form_AddDrug
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.textBox_Name = new System.Windows.Forms.TextBox();
+            this.textBox_Category = new System.Windows.Forms.TextBox();
+            this.textBox_AdultDosage = new System.Windows.Forms.TextBox();
+            this.textBox_KinderDosage = new System.Windows.Forms.TextBox();
+            this.button_OK = new System.Windows.Forms.Button();
+            this.button_Cancel = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // textBox_Name
+            // 
+            this.textBox_Name.Location = new System.Drawing.Point(73, 55);
+            this.textBox_Name.Name = "textBox_Name";
+            this.textBox_Name.Size = new System.Drawing.Size(238, 20);
+            this.textBox_Name.TabIndex = 0;
+            // 
+            // textBox_Category
+            // 
+            this.textBox_Category.Location = new System.Drawing.Point(112, 98);
+            this.textBox_Category.Name = "textBox_Category";
+            this.textBox_Category.Size = new System.Drawing.Size(199, 20);
+            this.textBox_Category.TabIndex = 1;
+            // 
+            // textBox_AdultDosage
+            // 
+            this.textBox_AdultDosage.Location = new System.Drawing.Point(334, 36);
+            this.textBox_AdultDosage.Multiline = true;
+            this.textBox_AdultDosage.Name = "textBox_AdultDosage";
+            this.textBox_AdultDosage.Size = new System.Drawing.Size(216, 136);
+            this.textBox_AdultDosage.TabIndex = 2;
+            // 
+            // textBox_KinderDosage
+            // 
+            this.textBox_KinderDosage.Location = new System.Drawing.Point(615, 36);
+            this.textBox_KinderDosage.Multiline = true;
+            this.textBox_KinderDosage.Name = "textBox_KinderDosage";
+            this.textBox_KinderDosage.Size = new System.Drawing.Size(216, 136);
+            this.textBox_KinderDosage.TabIndex = 3;
+            // 
+            // button_OK
+            // 
+            this.button_OK.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button_OK.Location = new System.Drawing.Point(44, 138);
+            this.button_OK.Name = "button_OK";
+            this.button_OK.Size = new System.Drawing.Size(82, 34);
+            this.button_OK.TabIndex = 4;
+            this.button_OK.Text = "OK";
+            this.button_OK.UseVisualStyleBackColor = true;
+            this.button_OK.Click += new System.EventHandler(this.button_OK_Click);
+            // 
+            // button_Cancel
+            // 
+            this.button_Cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button_Cancel.Location = new System.Drawing.Point(147, 138);
+            this.button_Cancel.Name = "button_Cancel";
+            this.button_Cancel.Size = new System.Drawing.Size(90, 34);
+            this.button_Cancel.TabIndex = 5;
+            this.button_Cancel.Text = "Zrušit";
+            this.button_Cancel.UseVisualStyleBackColor = true;
+            this.button_Cancel.Click += new System.EventHandler(this.button_Cancel_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(12, 55);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(58, 20);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Název";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(12, 96);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 20);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Kategorie";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(345, 13);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(190, 20);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Dávkování pro dospělé";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(645, 13);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(157, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Dávkování pro děti";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(11, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 25);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "LÉK";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
+            // Form_AddDrug
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(861, 190);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button_Cancel);
+            this.Controls.Add(this.button_OK);
+            this.Controls.Add(this.textBox_KinderDosage);
+            this.Controls.Add(this.textBox_AdultDosage);
+            this.Controls.Add(this.textBox_Category);
+            this.Controls.Add(this.textBox_Name);
+            this.Name = "Form_AddDrug";
+            this.Text = "Form2_AddDrugcs";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox textBox_Name;
+        private System.Windows.Forms.TextBox textBox_Category;
+        private System.Windows.Forms.TextBox textBox_AdultDosage;
+        private System.Windows.Forms.TextBox textBox_KinderDosage;
+        private System.Windows.Forms.Button button_OK;
+        private System.Windows.Forms.Button button_Cancel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+    }
+}
